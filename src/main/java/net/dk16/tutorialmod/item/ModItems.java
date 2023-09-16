@@ -12,9 +12,14 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item RED_CHUNK = registerItem("red_chunk", new Item(new FabricItemSettings()));
+    public static final Item GREEN_CHUNK = registerItem("green_chunk", new Item(new FabricItemSettings()));
+    public static final Item BLUE_CHUNK = registerItem("blue_chunk", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngrediantItemGroup(FabricItemGroupEntries entries) {
+
         entries.add(RED_CHUNK);
+        entries.add(GREEN_CHUNK);
+        entries.add(BLUE_CHUNK);
     }
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(TutorialMod.MOD_ID, name), item);

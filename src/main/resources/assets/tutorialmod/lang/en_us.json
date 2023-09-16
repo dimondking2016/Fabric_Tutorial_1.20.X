@@ -1,3 +1,5 @@
 {
-  "item.tutorialmod.red_chunk": "Red Chunk"
+  "item.tutorialmod.red_chunk": "Red Chunk",
+  "item.tutorialmod.green_chunk": "Green Chunk",
+  "item.tutorialmod.blue_chunk": "Blue Chunk"
 }
